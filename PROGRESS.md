@@ -1,5 +1,8 @@
 # Progress
 
+> Exercises live in `module_<N>_*/<section>/ex_<NN>_<slug>.ipynb`.
+> Challenges live in `module_<N>_*/challenges/challenge_<N_M>.ipynb`.
+
 ## Module 1 — Python Review
 
 ### 1.1 Variables & primitive types

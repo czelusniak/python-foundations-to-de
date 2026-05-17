@@ -8,7 +8,7 @@ This project is a structured Python relearning journey aimed at preparing the us
 - **Background:** Learned Python in the past, vague memory of basics, rusty on idioms.
 - **Goal:** Refresh core Python, then build a strong foundation for Data Engineering work in pure Python (no Spark, Airflow, dbt, etc.).
 - **Pace:** ~1 hour/day, 5–7 hours/week.
-- **Datasets:** Mix of fictional/generated data for fundamentals + real public datasets (Kaggle, NYC Taxi, public APIs) for advanced exercises.
+- **Datasets:** Generated/fabricated data inline in notebooks for reproducibility (no external downloads required to run any exercise). Real public data appears via API in `ex_72_api_to_parquet` (JSONPlaceholder). The medium- and long-term DE projects that follow Module 2 are where real datasets (NYC Taxi, Kaggle, etc.) come in.
 - **Databases:** SQLite first (built-in), PostgreSQL via `psycopg2` later.
 - **Out of scope:** External orchestration frameworks, deep DevOps, web frameworks, ML libraries. Concepts rarely used in day-to-day DE work are skipped.
 - **Testing:** No formal testing framework focus — `assert` may appear in exercises as a way to validate output, but `pytest` and TDD are not part of the plan.
@@ -31,11 +31,11 @@ When the user starts a study session, follow this protocol:
    - Clarifying questions ("What data structure would let you look that up in O(1)?")
    - Step-by-step hints, escalating only if the user is stuck
    - Pseudocode before real code, when useful
-4. **Code review mode** — When the user submits an attempt:
+5. **Code review mode** — When the user submits an attempt:
    - Run it mentally (or actually) against the expected output
    - Point out bugs, then idiomatic improvements separately
    - Explain *why* something is more Pythonic — don't just say "this is better"
-5. **Only show the full solution** when the user explicitly asks ("show me the answer", "I give up", etc.).
+6. **Only show the full solution** when the user explicitly asks ("show me the answer", "I give up", etc.).
 
 ### Session flow
 - Default session = 1 hour. Aim for ~3–5 exercises per session depending on difficulty.

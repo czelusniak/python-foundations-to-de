@@ -2,7 +2,22 @@
 
 Structured Python relearning journey with a Data Engineering focus. Covers core Python fundamentals (Module 1) then moves into DE-specific tooling and patterns (Module 2).
 
-Each subsection ends with a **cumulative challenge** that mixes the new concept with everything seen before — single problem, single final answer, interview-style framing. Challenges live in `module_<N>_*/challenges/`.
+Each subsection ends with a **cumulative challenge** that mixes the new concept with everything seen before — single problem, single final answer, interview-style framing.
+
+## Layout
+
+```
+module_01_review/
+  1_1_variables_and_types/   ex_01 – ex_05
+  1_2_strings/               ex_06 – ex_10
+  ...
+  challenges/                challenge_1_1 – challenge_1_11
+
+module_02_de/
+  2_1_file_formats/          ex_49 – ex_52
+  ...
+  challenges/                challenge_2_1 – challenge_2_4
+```
 
 ## Module 1 — Python Review
 
