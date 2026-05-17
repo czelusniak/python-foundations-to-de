@@ -30,8 +30,22 @@ Each subsection ends with a **cumulative challenge** that mixes the new concept 
 | 2.4 | Databases (SQLite, PostgreSQL) | ex_64 – ex_68 | challenge_2_4 |
 | 2.5 | DE mini-projects | ex_69 – ex_74 | — |
 
+## Setup
+
+```bash
+# create and activate a virtual environment
+python -m venv .venv
+source .venv/bin/activate      # Linux / macOS
+.venv\Scripts\activate         # Windows
+
+# install dependencies (only needed for Module 2)
+pip install -r requirements.txt
+```
+
+Open the repo in VS Code and select the `.venv` interpreter (`Ctrl+Shift+P` → *Python: Select Interpreter*). Notebooks run directly in VS Code's built-in Jupyter editor.
+
 ## Stack
 
 - Python 3.x · Jupyter notebooks (VS Code)
-- `pandas`, `pyarrow`, `psycopg2`
-- `sqlite3`, `csv`, `json`, `gzip`, `pathlib` (stdlib)
+- `pandas`, `pyarrow`, `psycopg2-binary` (Module 2)
+- `sqlite3`, `csv`, `json`, `gzip`, `pathlib` (stdlib — no install needed)
